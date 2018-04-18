@@ -1,0 +1,115 @@
+
+
+body {
+  scroll-behavior: smooth;
+}
+
+h1 span{
+  display: block;
+
+}
+@font-face {
+    font-family: "Quicksand";
+    src: url("../fonts/quicksand/quicksand-medium-webfont.woff2") format("woff2"),
+         url("../fonts/quicksand/quicksand-medium-webfont.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("../fonts/quicksand/quicksand-regular-webfont.woff2") format("woff2"),
+         url("../fonts/quicksand/quicksand-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  font-family: Quicksand, sans-serif;
+  font-weight: normal;
+  padding: 2em;
+}
+
+ul{
+  padding-bottom: 2em;
+  padding-left: 2em;
+
+}
+
+.nav-link{
+  color: #15c0e8;
+}
+
+figcaption{
+  font-size: .125em;
+}
+
+#heading h1 {
+  font-family: Quicksand, sans-serif;
+  font-weight: 500;
+  font: 500 2.3em/1.2 Quicksand, sans-serif;
+  padding: .5em;
+
+}
+
+h1 {
+  font-family: Quicksand, sans-serif;
+  font-weight: 500;
+  font: 500 2.3em/1.2 Quicksand, sans-serif;
+}
+
+#newdirection h1{
+  font-size:2em;
+}
+
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover{
+  color:#f2afe2;
+}
+#header {
+  background: #352e34;
+
+}
+
+#saga .jumbotron{
+  background-color: #15c0e8;
+  padding: .5rem;
+
+}
+
+#browsers .jumbotron{
+  background-color: #f2afe2;
+
+}
+
+#beyond .jumbotron{
+  background-color: #ea6a13;
+
+}
+
+#webfonts .jumbotron{
+  background-color: #352e34;
+  color: #ffffff;
+
+}
+
+#newdirections .jumbotron{
+  background-color: #15c0e8;
+}
